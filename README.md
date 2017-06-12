@@ -72,6 +72,25 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 * **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
 
+## User Stories
+
+Classes
+* Balance - responsible for maintaining the current level of funds in the account. Methods: deposit, withdraw
+* TransactionHistory - resposible for maintaining the time and amount of previous changes in balance. Methods: add_transaction
+* Printer - responsible for outputting historical transactions in an easy to consume way. Methods: print_statement
+
+As a client 
+So I can save my money
+I would like to be able to deposit funds into my account
+
+As a client 
+So I can spend my money
+I would like to be able to withdraw funds from my account
+
+As a client 
+So I can review my spending habits
+I would like to be able to see my history of transactions in a legible format
+
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
