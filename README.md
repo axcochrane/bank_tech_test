@@ -80,6 +80,10 @@ Classes
 * Printer - responsible for outputting historical transactions in an easy to consume way. Methods: print_statement
 
 As a client 
+So I can manage my money
+I would like to be able to create a bank account
+
+As a client 
 So I can save my money
 I would like to be able to deposit funds into my account
 
