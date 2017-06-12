@@ -1,19 +1,24 @@
+require_relative 'Balance.rb'
+
 class BankAccount
 
-STARTING_BALANCE = 0
-
-  attr_reader :balance
-
-  def initialize (balance = STARTING_BALANCE)
-    @balance = balance
+  def initialize
+    @balance = Balance.new
+  end
+  
+  def balance
+     @balance.current_balance
   end
 
   def deposit(amount)
-    @balance += amount
+     @balance.add(amount)
   end
 
   def withdraw(amount)
-    @balance -= amount
+     @balance.subtract(amount)
+  end
+
+  def print_statement
   end
 
 end
