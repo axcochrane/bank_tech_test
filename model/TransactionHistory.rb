@@ -22,7 +22,7 @@ class TransactionHistory
 
   def print_statement
     @history.each do |line_item|  
-      print "#{line_item[:date]} || #{line_item[:credit]} || #{line_item[:debit]} || #{line_item[:balance]}"
+      puts "#{line_item[:date]} || #{line_item[:credit]} || #{line_item[:debit]} || #{line_item[:balance]}"
     end
   end
 
